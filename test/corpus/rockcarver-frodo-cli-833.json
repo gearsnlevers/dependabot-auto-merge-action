@@ -1,0 +1,90 @@
+{
+  "repo": "rockcarver/frodo-cli",
+  "number": 833,
+  "asOf": "2026-10-20T15:48:31Z",
+  "pr": {
+    "number": 833,
+    "title": "build(deps-dev): bump hono from 4.13.7 to 4.13.13",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/hono-4.13.13",
+      "sha": "bac2f0165cf97c4cdb84369079873a743b016e34"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8160b872d46ec0d421e5c216f593ca51910bcf3a"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump hono from 4.13.7 to 4.13.13\n\nBumps [hono](https://github.com/honojs/hono) from 4.13.7 to 4.13.13.\n- [Release notes](https://github.com/honojs/hono/releases)\n- [Commits](https://github.com/honojs/hono/compare/v4.13.7...v4.13.13)\n\n---\nupdated-dependencies:\n- dependency-name: hono\n  dependency-version: 4.13.13\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "8160b872d46ec0d421e5c216f593ca51910bcf3a",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/hono": {
+        "version": "4.13.7"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/hono": {
+        "version": "4.13.13"
+      }
+    }
+  },
+  "registry": {
+    "hono": {
+      "4.13.13": "2026-10-04T03:53:48.117Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@modelcontextprotocol/client",
+      "@types/*",
+      "cli-progress",
+      "fs-extra",
+      "jest",
+      "loglevel",
+      "map-stream",
+      "replaceall",
+      "rimraf",
+      "slugify",
+      "tmp",
+      "ts-jest"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group"
+    }
+  ],
+  "why": "hono is bundled into the CLI: a pull request of its own, a person merges it."
+}

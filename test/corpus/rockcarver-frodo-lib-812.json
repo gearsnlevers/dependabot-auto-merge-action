@@ -1,0 +1,82 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 812,
+  "asOf": "2026-10-24T19:53:11Z",
+  "pr": {
+    "number": 812,
+    "title": "chore(deps): Bump github/gh-aw-actions/setup from 0.92.0 to 0.93.0",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/github_actions/github/gh-aw-actions/setup-0.93.0",
+      "sha": "8a91bcc723bbaf48f56e8bd694814b1027675532"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "2dad78a20a98551d134b1bec5e85c91371f20654"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "github_actions"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps): Bump github/gh-aw-actions/setup from 0.92.0 to 0.93.0\n\nBumps [github/gh-aw-actions/setup](https://github.com/github/gh-aw-actions) from 0.92.0 to 0.93.0.\n- [Release notes](https://github.com/github/gh-aw-actions/releases)\n- [Changelog](https://github.com/github/gh-aw-actions/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/gh-aw-actions/compare/458b269006dcf88e3b5496b6fbecabe4b9a0f954...e7519e6442ef74dda80a1627315ad827f402309c)\n\n---\nupdated-dependencies:\n- dependency-name: github/gh-aw-actions/setup\n  dependency-version: 0.93.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "2dad78a20a98551d134b1bec5e85c91371f20654",
+  "baseLock": {
+    "packages": {
+      "": {}
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {}
+    }
+  },
+  "registry": {},
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "GitHub Actions update: a person merges it"
+    }
+  ],
+  "why": "A GitHub Actions minor update, which the old workflow would have armed: never armed under the record."
+}

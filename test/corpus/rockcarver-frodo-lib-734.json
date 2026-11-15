@@ -1,0 +1,92 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 734,
+  "asOf": "2026-10-20T22:06:41Z",
+  "pr": {
+    "number": 734,
+    "title": "chore(deps): bump markdown-it from 14.3.2 to 14.3.3",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/markdown-it-14.3.3",
+      "sha": "14dba8e802a38e1d0eaefb493ff9afc3f30c64cf"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "ac25be0bceb7250bec6e76b81eb3e02dbf257095"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps): bump markdown-it from 14.3.2 to 14.3.3\n\nBumps [markdown-it](https://github.com/markdown-it/markdown-it) from 14.3.2 to 14.3.3.\n- [Changelog](https://github.com/markdown-it/markdown-it/blob/14.3.3/CHANGELOG.md)\n- [Commits](https://github.com/markdown-it/markdown-it/compare/14.3.2...14.3.3)\n\n---\nupdated-dependencies:\n- dependency-name: markdown-it\n  dependency-version: 14.3.3\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "abdafb2b01aca4a4b87f102acf002359d8aa5e7c",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/markdown-it": {
+        "version": "14.3.2"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/markdown-it": {
+        "version": "14.3.3"
+      }
+    }
+  },
+  "registry": {
+    "markdown-it": {
+      "14.3.3": "2026-10-16T01:47:54.675Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group"
+    }
+  ],
+  "why": "markdown-it is a production dependency that is not on the tooling list: a person merges it."
+}

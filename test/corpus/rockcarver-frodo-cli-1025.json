@@ -1,0 +1,88 @@
+{
+  "repo": "rockcarver/frodo-cli",
+  "number": 1025,
+  "asOf": "2026-10-31T23:04:48Z",
+  "pr": {
+    "number": 1025,
+    "title": "chore(deps-dev): bump chokidar from 5.0.0 to 6.0.0",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/chokidar-6.0.0",
+      "sha": "c30a454be469050005ca96adaa01416edbd208b0"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "7e49148e35f023391056873d588cb4eb94bfb8ea"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps-dev): bump chokidar from 5.0.0 to 6.0.0\n\nBumps [chokidar](https://github.com/paulmillr/chokidar) from 5.0.0 to 6.0.0.\n- [Release notes](https://github.com/paulmillr/chokidar/releases)\n- [Changelog](https://github.com/paulmillr/chokidar/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/paulmillr/chokidar/compare/5.0.0...6.0.0)\n\n---\nupdated-dependencies:\n- dependency-name: chokidar\n  dependency-version: 6.0.0\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "7e49148e35f023391056873d588cb4eb94bfb8ea",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/chokidar": {
+        "version": "5.0.0"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/chokidar": {
+        "version": "6.0.0"
+      }
+    }
+  },
+  "registry": {
+    "chokidar": {
+      "6.0.0": "2026-10-19T20:52:41.519Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@modelcontextprotocol/client",
+      "@types/*",
+      "cli-progress",
+      "fs-extra",
+      "jest",
+      "loglevel",
+      "map-stream",
+      "replaceall",
+      "rimraf",
+      "slugify",
+      "tmp",
+      "ts-jest"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not a patch or minor update"
+    }
+  ],
+  "why": "chokidar 5 to 6 is a major update: never armed."
+}

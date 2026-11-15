@@ -1,0 +1,108 @@
+{
+  "repo": "rockcarver/frodo-cli",
+  "number": 738,
+  "asOf": "2026-10-03T23:04:06Z",
+  "pr": {
+    "number": 738,
+    "title": "build(deps-dev): bump properties-reader from 2.3.0 to 3.0.1",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/properties-reader-3.0.1",
+      "sha": "d45c023f4e2bbf2762d98e28421a3cddffcf1a4a"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "c0988dcac04593a617b2de11f7d704cb167050bf"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump properties-reader from 2.3.0 to 3.0.1\n\nBumps [properties-reader](https://github.com/steveukx/properties) from 2.3.0 to 3.0.1.\n- [Release notes](https://github.com/steveukx/properties/releases)\n- [Changelog](https://github.com/steveukx/properties/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/steveukx/properties/compare/v2.3.0...v3.0.1)\n\n---\nupdated-dependencies:\n- dependency-name: properties-reader\n  dependency-version: 3.0.1\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    },
+    {
+      "author": {
+        "login": "a-person"
+      },
+      "commit": {
+        "message": "(a commit by a person: not recorded)"
+      }
+    }
+  ],
+  "mergeBase": "c0988dcac04593a617b2de11f7d704cb167050bf",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/properties-reader": {
+        "version": "2.3.0"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/@kwsites/file-exists": {
+        "version": "1.1.1"
+      },
+      "node_modules/properties-reader": {
+        "version": "3.0.1"
+      },
+      "node_modules/properties-reader/node_modules/mkdirp": {
+        "version": "3.0.1"
+      }
+    }
+  },
+  "registry": {
+    "@kwsites/file-exists": {
+      "1.1.1": "2020-06-10T09:28:59.588Z"
+    },
+    "properties-reader": {
+      "3.0.1": "2026-01-31T15:46:21.987Z"
+    },
+    "mkdirp": {
+      "3.0.1": "2023-04-24T17:27:38.604Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@modelcontextprotocol/client",
+      "@types/*",
+      "cli-progress",
+      "fs-extra",
+      "jest",
+      "loglevel",
+      "map-stream",
+      "replaceall",
+      "rimraf",
+      "slugify",
+      "tmp",
+      "ts-jest"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "commits not made by Dependabot"
+    }
+  ],
+  "why": "Somebody pushed a commit onto the Dependabot branch, so the head commit has no metadata and not every commit is Dependabot's: never armed, whatever the update is."
+}

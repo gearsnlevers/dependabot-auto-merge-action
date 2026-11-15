@@ -1,0 +1,90 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 1099,
+  "asOf": "2026-11-14T22:56:17Z",
+  "pr": {
+    "number": 1099,
+    "title": "build(deps-dev): bump jose from 6.2.14 to 6.2.15",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/jose-6.2.15",
+      "sha": "d9b17cc8ff8a16cdeb3d261a5344207354729fdc"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "18615b8dce3d0d5952663df4964a3e8c37b7f0f5"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump jose from 6.2.14 to 6.2.15\n\nBumps [jose](https://github.com/panva/jose) from 6.2.14 to 6.2.15.\n- [Release notes](https://github.com/panva/jose/releases)\n- [Changelog](https://github.com/panva/jose/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/panva/jose/compare/v6.2.14...v6.2.15)\n\n---\nupdated-dependencies:\n- dependency-name: jose\n  dependency-version: 6.2.15\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "18615b8dce3d0d5952663df4964a3e8c37b7f0f5",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/jose": {
+        "version": "6.2.14"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/jose": {
+        "version": "6.2.15"
+      }
+    }
+  },
+  "registry": {
+    "jose": {
+      "6.2.15": "2026-11-01T22:28:55.912Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group"
+    }
+  ],
+  "why": "jose is bundled into what is shipped: a pull request of its own, a person merges it after reading what changed in the package."
+}

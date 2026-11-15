@@ -1,0 +1,279 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 873,
+  "asOf": "2026-10-31T19:53:50Z",
+  "pr": {
+    "number": 873,
+    "title": "chore(deps-dev): bump the dev-minor-patch group with 4 updates",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/dev-minor-patch-04a1fc2375",
+      "sha": "26ca1672872fd54605a204e0415640d98aa1a435"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8906082237328bfc6343b14f49daa6e28c6924d3"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps-dev): bump the dev-minor-patch group with 4 updates\n\nBumps the dev-minor-patch group with 4 updates: [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node), [axios](https://github.com/axios/axios), [qs](https://github.com/ljharb/qs) and [tsdown](https://github.com/rolldown/tsdown).\n\n\nUpdates `@types/node` from 26.6.5 to 26.6.6\n- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)\n- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)\n\nUpdates `axios` from 1.20.0 to 1.21.0\n- [Release notes](https://github.com/axios/axios/releases)\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\n- [Commits](https://github.com/axios/axios/compare/v1.20.0...v1.21.0)\n\nUpdates `qs` from 6.16.1 to 6.17.0\n- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/ljharb/qs/compare/v6.16.1...v6.17.0)\n\nUpdates `tsdown` from 0.23.1 to 0.23.3\n- [Release notes](https://github.com/rolldown/tsdown/releases)\n- [Commits](https://github.com/rolldown/tsdown/compare/v0.23.1...v0.23.3)\n\n---\nupdated-dependencies:\n- dependency-name: \"@types/node\"\n  dependency-version: 26.6.6\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: dev-minor-patch\n- dependency-name: axios\n  dependency-version: 1.21.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: dev-minor-patch\n- dependency-name: qs\n  dependency-version: 6.17.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: dev-minor-patch\n- dependency-name: tsdown\n  dependency-version: 0.23.3\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: dev-minor-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "8906082237328bfc6343b14f49daa6e28c6924d3",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/@oxc-project/types": {
+        "version": "0.154.0"
+      },
+      "node_modules/@rolldown/binding-android-arm-eabi": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-android-arm64": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-darwin-arm64": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-darwin-x64": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-freebsd-x64": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-linux-arm-gnueabihf": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-linux-arm64-gnu": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-linux-arm64-musl": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-linux-ppc64-gnu": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-linux-s390x-gnu": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-linux-x64-gnu": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-linux-x64-musl": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-openharmony-arm64": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-win32-arm64-msvc": {
+        "version": "1.2.14"
+      },
+      "node_modules/@rolldown/binding-win32-x64-msvc": {
+        "version": "1.2.14"
+      },
+      "node_modules/@types/node": {
+        "version": "26.6.5"
+      },
+      "node_modules/axios": {
+        "version": "1.20.0"
+      },
+      "node_modules/qs": {
+        "version": "6.16.1"
+      },
+      "node_modules/rolldown": {
+        "version": "1.2.14"
+      },
+      "node_modules/tsdown": {
+        "version": "0.23.1"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/@oxc-project/types": {
+        "version": "0.155.0"
+      },
+      "node_modules/@rolldown/binding-android-arm-eabi": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-android-arm64": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-darwin-arm64": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-darwin-x64": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-freebsd-x64": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-linux-arm-gnueabihf": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-linux-arm64-gnu": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-linux-arm64-musl": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-linux-ppc64-gnu": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-linux-s390x-gnu": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-linux-x64-gnu": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-linux-x64-musl": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-openharmony-arm64": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-win32-arm64-msvc": {
+        "version": "1.2.15"
+      },
+      "node_modules/@rolldown/binding-win32-x64-msvc": {
+        "version": "1.2.15"
+      },
+      "node_modules/@types/node": {
+        "version": "26.6.6"
+      },
+      "node_modules/axios": {
+        "version": "1.21.0"
+      },
+      "node_modules/body-parser/node_modules/qs": {
+        "version": "6.16.2"
+      },
+      "node_modules/express/node_modules/qs": {
+        "version": "6.16.2"
+      },
+      "node_modules/qs": {
+        "version": "6.17.0"
+      },
+      "node_modules/rolldown": {
+        "version": "1.2.15"
+      },
+      "node_modules/tsdown": {
+        "version": "0.23.3"
+      }
+    }
+  },
+  "registry": {
+    "@oxc-project/types": {
+      "0.155.0": "2026-10-19T14:27:36.193Z"
+    },
+    "@rolldown/binding-android-arm-eabi": {
+      "1.2.15": "2026-10-21T13:00:19.768Z"
+    },
+    "@rolldown/binding-android-arm64": {
+      "1.2.15": "2026-10-21T13:06:13.914Z"
+    },
+    "@rolldown/binding-darwin-arm64": {
+      "1.2.15": "2026-10-21T12:59:22.386Z"
+    },
+    "@rolldown/binding-darwin-x64": {
+      "1.2.15": "2026-10-21T13:01:06.575Z"
+    },
+    "@rolldown/binding-freebsd-x64": {
+      "1.2.15": "2026-10-21T13:01:42.301Z"
+    },
+    "@rolldown/binding-linux-arm-gnueabihf": {
+      "1.2.15": "2026-10-21T13:00:09.322Z"
+    },
+    "@rolldown/binding-linux-arm64-gnu": {
+      "1.2.15": "2026-10-21T12:59:38.024Z"
+    },
+    "@rolldown/binding-linux-arm64-musl": {
+      "1.2.15": "2026-10-21T12:59:52.371Z"
+    },
+    "@rolldown/binding-linux-ppc64-gnu": {
+      "1.2.15": "2026-10-21T13:01:04.242Z"
+    },
+    "@rolldown/binding-linux-s390x-gnu": {
+      "1.2.15": "2026-10-21T13:05:45.436Z"
+    },
+    "@rolldown/binding-linux-x64-gnu": {
+      "1.2.15": "2026-10-21T13:02:05.003Z"
+    },
+    "@rolldown/binding-linux-x64-musl": {
+      "1.2.15": "2026-10-21T13:06:47.340Z"
+    },
+    "@rolldown/binding-openharmony-arm64": {
+      "1.2.15": "2026-10-21T13:00:55.814Z"
+    },
+    "@rolldown/binding-win32-arm64-msvc": {
+      "1.2.15": "2026-10-21T13:01:15.215Z"
+    },
+    "@rolldown/binding-win32-x64-msvc": {
+      "1.2.15": "2026-10-21T13:01:16.798Z"
+    },
+    "@types/node": {
+      "26.6.6": "2026-10-28T18:36:36.455Z"
+    },
+    "axios": {
+      "1.21.0": "2026-10-27T07:18:54.313Z"
+    },
+    "qs": {
+      "6.16.2": "2026-10-27T19:27:00.389Z",
+      "6.17.0": "2026-10-27T06:23:47.002Z"
+    },
+    "rolldown": {
+      "1.2.15": "2026-10-21T13:10:11.254Z"
+    },
+    "tsdown": {
+      "0.23.3": "2026-10-28T02:23:19.327Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group (dev-minor-patch)"
+    }
+  ],
+  "why": "The old weekly group dev-minor-patch mixed bundled packages (axios, jose, qs) with tooling: under the record only the group tooling arms, and this group is not it."
+}

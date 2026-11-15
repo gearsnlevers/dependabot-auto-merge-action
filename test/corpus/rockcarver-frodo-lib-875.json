@@ -1,0 +1,216 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 875,
+  "asOf": "2026-10-31T19:54:22Z",
+  "pr": {
+    "number": 875,
+    "title": "chore(deps-dev): bump @peculiar/x509 from 2.2.0 to 3.1.0",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/peculiar/x509-3.1.0",
+      "sha": "0586495492cf9572e0b3da8eb0e39c9e9433725d"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8906082237328bfc6343b14f49daa6e28c6924d3"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps-dev): bump @peculiar/x509 from 2.2.0 to 3.1.0\n\nBumps [@peculiar/x509](https://github.com/PeculiarVentures/x509) from 2.2.0 to 3.1.0.\n- [Release notes](https://github.com/PeculiarVentures/x509/releases)\n- [Commits](https://github.com/PeculiarVentures/x509/compare/v2.2.0...v3.1.0)\n\n---\nupdated-dependencies:\n- dependency-name: \"@peculiar/x509\"\n  dependency-version: 3.1.0\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "8906082237328bfc6343b14f49daa6e28c6924d3",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/@peculiar/asn1-asym-key": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-cms": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-csr": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-ecc": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-pfx": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-pkcs8": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-pkcs9": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-rsa": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-schema": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-x509": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-x509-attr": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/asn1-x509-post-quantum": {
+        "version": "2.11.0"
+      },
+      "node_modules/@peculiar/utils": {
+        "version": "2.0.3"
+      },
+      "node_modules/@peculiar/x509": {
+        "version": "2.2.0"
+      },
+      "node_modules/asn1js": {
+        "version": "3.1.0"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/@peculiar/asn1-asym-key": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-cms": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-csr": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-ecc": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-pfx": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-pkcs8": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-pkcs9": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-rsa": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-schema": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-x509": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-x509-attr": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/asn1-x509-post-quantum": {
+        "version": "3.0.0"
+      },
+      "node_modules/@peculiar/utils": {
+        "version": "4.1.0"
+      },
+      "node_modules/@peculiar/x509": {
+        "version": "3.1.0"
+      },
+      "node_modules/asn1js": {
+        "version": "4.0.0"
+      }
+    }
+  },
+  "registry": {
+    "@peculiar/asn1-asym-key": {
+      "3.0.0": "2026-10-26T11:25:54.077Z"
+    },
+    "@peculiar/asn1-cms": {
+      "3.0.0": "2026-10-26T11:26:22.192Z"
+    },
+    "@peculiar/asn1-csr": {
+      "3.0.0": "2026-10-26T11:26:43.933Z"
+    },
+    "@peculiar/asn1-ecc": {
+      "3.0.0": "2026-10-26T11:29:08.351Z"
+    },
+    "@peculiar/asn1-pfx": {
+      "3.0.0": "2026-10-26T11:27:20.121Z"
+    },
+    "@peculiar/asn1-pkcs8": {
+      "3.0.0": "2026-10-26T11:26:54.947Z"
+    },
+    "@peculiar/asn1-pkcs9": {
+      "3.0.0": "2026-10-26T11:28:22.437Z"
+    },
+    "@peculiar/asn1-rsa": {
+      "3.0.0": "2026-10-26T11:28:54.024Z"
+    },
+    "@peculiar/asn1-schema": {
+      "3.0.0": "2026-10-26T11:24:29.836Z"
+    },
+    "@peculiar/asn1-x509": {
+      "3.0.0": "2026-10-26T11:24:51.202Z"
+    },
+    "@peculiar/asn1-x509-attr": {
+      "3.0.0": "2026-10-26T11:26:21.221Z"
+    },
+    "@peculiar/asn1-x509-post-quantum": {
+      "3.0.0": "2026-10-26T11:28:11.390Z"
+    },
+    "@peculiar/utils": {
+      "4.1.0": "2026-10-19T12:41:55.714Z"
+    },
+    "@peculiar/x509": {
+      "3.1.0": "2026-10-27T19:43:05.621Z"
+    },
+    "asn1js": {
+      "4.0.0": "2026-10-19T14:54:40.224Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not a patch or minor update"
+    }
+  ],
+  "why": "@peculiar/x509 is on the tooling list by name, but a major update is never armed."
+}

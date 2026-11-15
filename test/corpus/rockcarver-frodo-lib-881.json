@@ -1,0 +1,116 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 881,
+  "asOf": "2026-11-01T23:52:47Z",
+  "pr": {
+    "number": 881,
+    "title": "chore(deps-dev): bump the dev-minor-patch group with 3 updates",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/dev-minor-patch-ea1e9e98f0",
+      "sha": "5f55e66449d2f68c6dde71f3aca4d76eae59fb99"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "65a51a39862245dffc09bf9f37e78b95b1dfd9b8"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps-dev): bump the dev-minor-patch group with 3 updates\n\nBumps the dev-minor-patch group with 3 updates: [jose](https://github.com/panva/jose), [qs](https://github.com/ljharb/qs) and [tsdown](https://github.com/rolldown/tsdown).\n\n\nUpdates `jose` from 6.2.13 to 6.2.14\n- [Release notes](https://github.com/panva/jose/releases)\n- [Changelog](https://github.com/panva/jose/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/panva/jose/compare/v6.2.13...v6.2.14)\n\nUpdates `qs` from 6.17.0 to 6.17.1\n- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/ljharb/qs/compare/v6.17.0...v6.17.1)\n\nUpdates `tsdown` from 0.23.3 to 0.23.4\n- [Release notes](https://github.com/rolldown/tsdown/releases)\n- [Commits](https://github.com/rolldown/tsdown/compare/v0.23.3...v0.23.4)\n\n---\nupdated-dependencies:\n- dependency-name: jose\n  dependency-version: 6.2.14\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: dev-minor-patch\n- dependency-name: qs\n  dependency-version: 6.17.1\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: dev-minor-patch\n- dependency-name: tsdown\n  dependency-version: 0.23.4\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: dev-minor-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "65a51a39862245dffc09bf9f37e78b95b1dfd9b8",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/jose": {
+        "version": "6.2.13"
+      },
+      "node_modules/qs": {
+        "version": "6.17.0"
+      },
+      "node_modules/tsdown": {
+        "version": "0.23.3"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/jose": {
+        "version": "6.2.14"
+      },
+      "node_modules/qs": {
+        "version": "6.17.1"
+      },
+      "node_modules/tinyps": {
+        "version": "0.5.1"
+      },
+      "node_modules/tsdown": {
+        "version": "0.23.4"
+      }
+    }
+  },
+  "registry": {
+    "jose": {
+      "6.2.14": "2026-10-29T09:51:45.094Z"
+    },
+    "qs": {
+      "6.17.1": "2026-10-28T23:41:47.540Z"
+    },
+    "tinyps": {
+      "0.5.1": "2026-10-21T08:32:13.611Z"
+    },
+    "tsdown": {
+      "0.23.4": "2026-10-29T12:27:36.311Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group (dev-minor-patch)"
+    }
+  ],
+  "why": "The old group dev-minor-patch holds jose and qs, which are bundled: not the tooling group."
+}

@@ -1,0 +1,90 @@
+{
+  "repo": "rockcarver/frodo-cli",
+  "number": 1305,
+  "asOf": "2026-11-13T00:30:41Z",
+  "pr": {
+    "number": 1305,
+    "title": "build(deps-dev): bump hono from 4.13.13 to 4.13.18",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/hono-4.13.18",
+      "sha": "b164dcc277c651d2b53ac875fad87228ac908eec"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "1dc2505bd4478fe8931b2e5e58cb220557f46c23"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump hono from 4.13.13 to 4.13.18\n\nBumps [hono](https://github.com/honojs/hono) from 4.13.13 to 4.13.18.\n- [Release notes](https://github.com/honojs/hono/releases)\n- [Commits](https://github.com/honojs/hono/compare/v4.13.13...v4.13.18)\n\n---\nupdated-dependencies:\n- dependency-name: hono\n  dependency-version: 4.13.18\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "1dc2505bd4478fe8931b2e5e58cb220557f46c23",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/hono": {
+        "version": "4.13.13"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/hono": {
+        "version": "4.13.18"
+      }
+    }
+  },
+  "registry": {
+    "hono": {
+      "4.13.18": "2026-11-11T08:54:02.195Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@modelcontextprotocol/client",
+      "@types/*",
+      "cli-progress",
+      "fs-extra",
+      "jest",
+      "loglevel",
+      "map-stream",
+      "replaceall",
+      "rimraf",
+      "slugify",
+      "tmp",
+      "ts-jest"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group"
+    }
+  ],
+  "why": "hono again: bundled, never in the tooling group."
+}

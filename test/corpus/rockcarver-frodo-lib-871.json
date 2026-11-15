@@ -1,0 +1,92 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 871,
+  "asOf": "2026-10-31T08:07:29Z",
+  "pr": {
+    "number": 871,
+    "title": "chore(deps): bump follow-redirects from 1.16.1 to 1.16.2",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/follow-redirects-1.16.2",
+      "sha": "6cd96e2450a0f86a25d58ba0e2e73d2d397fa750"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "1227fe65251a9274cc5ce2c26c3507cc97a45923"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps): bump follow-redirects from 1.16.1 to 1.16.2\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.16.1 to 1.16.2.\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.16.1...v1.16.2)\n\n---\nupdated-dependencies:\n- dependency-name: follow-redirects\n  dependency-version: 1.16.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "1227fe65251a9274cc5ce2c26c3507cc97a45923",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/follow-redirects": {
+        "version": "1.16.1"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/follow-redirects": {
+        "version": "1.16.2"
+      }
+    }
+  },
+  "registry": {
+    "follow-redirects": {
+      "1.16.2": "2026-10-25T21:32:25.963Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group"
+    }
+  ],
+  "why": "follow-redirects reaches the shipped library through axios: a patch update, but a package that is bundled or listed nowhere is not in the tooling group, so a person merges it."
+}

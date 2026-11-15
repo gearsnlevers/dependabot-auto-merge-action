@@ -1,0 +1,57 @@
+name: 'Dependabot Auto-Merge'
+description: 'Arms auto-merge on Dependabot pull requests under a written policy: the tooling group only, patch or minor, every new lockfile version old enough, never GitHub Actions'
+
+branding:
+  icon: 'git-merge'
+  color: 'green'
+
+inputs:
+  github-token:
+    description: 'Token that reads the repository and arms auto-merge (the GITHUB_TOKEN of the workflow, with contents: write and pull-requests: write)'
+    required: true
+  pull-request:
+    description: 'Number of one pull request to look at; empty looks at every open Dependabot pull request (the daily sweep)'
+    required: false
+    default: ''
+  repository:
+    description: 'owner/name of the repository whose pull requests are looked at'
+    required: false
+    default: ${{ github.repository }}
+  dependabot-config:
+    description: 'Path of dependabot.yml in the repository; it is read from the default branch, never from the pull request'
+    required: false
+    default: '.github/dependabot.yml'
+  min-age-days:
+    description: 'Age in days that every package version added or changed in the lockfile must have'
+    required: false
+    default: '7'
+  dry-run:
+    description: 'true to decide and report but arm nothing'
+    required: false
+    default: 'false'
+
+outputs:
+  verdicts:
+    description: 'JSON array with one object per pull request looked at: number, title, action, arm, retryLater, alreadyArmed, reasons'
+    value: ${{ steps.run.outputs.verdicts }}
+  armed:
+    description: 'Comma-separated numbers of the pull requests that are armed (now or already)'
+    value: ${{ steps.run.outputs.armed }}
+
+runs:
+  using: 'composite'
+  steps:
+    - id: run
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+        INPUT_PULL_REQUEST: ${{ inputs.pull-request }}
+        INPUT_REPOSITORY: ${{ inputs.repository }}
+        INPUT_CONFIG: ${{ inputs.dependabot-config }}
+        INPUT_MIN_AGE_DAYS: ${{ inputs.min-age-days }}
+        INPUT_DRY_RUN: ${{ inputs.dry-run }}
+      run: |
+        args=(--repo "$INPUT_REPOSITORY" --config "$INPUT_CONFIG" --min-age-days "$INPUT_MIN_AGE_DAYS")
+        if [ -n "$INPUT_PULL_REQUEST" ]; then args+=(--pr "$INPUT_PULL_REQUEST"); else args+=(--all); fi
+        if [ "$INPUT_DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+        exec node "$GITHUB_ACTION_PATH/scripts/dependabot-auto-merge.mjs" "${args[@]}"

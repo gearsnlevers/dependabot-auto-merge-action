@@ -1,0 +1,140 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 1096,
+  "asOf": "2026-11-14T22:55:40Z",
+  "pr": {
+    "number": 1096,
+    "title": "build(deps-dev): bump rimraf from 6.1.3 to 6.1.4 in the tooling group",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/tooling-35194d920e",
+      "sha": "397f7ead48218852b58f6dab7f3dd7571386b03b"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "18615b8dce3d0d5952663df4964a3e8c37b7f0f5"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump rimraf from 6.1.3 to 6.1.4 in the tooling group\n\nBumps the tooling group with 1 update: [rimraf](https://github.com/isaacs/rimraf).\n\n\nUpdates `rimraf` from 6.1.3 to 6.1.4\n- [Changelog](https://github.com/isaacs/rimraf/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/isaacs/rimraf/compare/v6.1.3...v6.1.4)\n\n---\nupdated-dependencies:\n- dependency-name: rimraf\n  dependency-version: 6.1.4\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: tooling\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "18615b8dce3d0d5952663df4964a3e8c37b7f0f5",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/rimraf": {
+        "version": "6.1.3"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/@isaacs/nonrecursive-glob-match": {
+        "version": "1.1.0"
+      },
+      "node_modules/rimraf": {
+        "version": "6.1.4"
+      },
+      "node_modules/rimraf/node_modules/glob": {
+        "version": "14.0.4"
+      },
+      "node_modules/rimraf/node_modules/lru-cache": {
+        "version": "11.5.3"
+      },
+      "node_modules/rimraf/node_modules/minimatch": {
+        "version": "11.0.5"
+      },
+      "node_modules/rimraf/node_modules/path-scurry": {
+        "version": "3.0.0"
+      }
+    }
+  },
+  "registry": {
+    "@isaacs/nonrecursive-glob-match": {
+      "1.1.0": "2026-11-05T21:38:25.286Z"
+    },
+    "rimraf": {
+      "6.1.4": "2026-11-03T17:25:48.860Z"
+    },
+    "glob": {
+      "14.0.4": "2026-11-06T03:47:55.681Z"
+    },
+    "lru-cache": {
+      "11.5.3": "2026-09-18T23:46:33.023Z"
+    },
+    "minimatch": {
+      "11.0.5": "2026-11-05T23:30:59.365Z"
+    },
+    "path-scurry": {
+      "3.0.0": "2026-10-27T21:14:48.842Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": true,
+      "retryLater": false,
+      "mention": "lockfile versions, all at least 7 days old"
+    },
+    {
+      "asOf": "2026-11-08T12:00:00Z",
+      "arm": false,
+      "retryLater": true,
+      "mention": "glob@14.0.4: 2.3 days old, less than 7"
+    },
+    {
+      "asOf": "2026-11-13T03:47:00Z",
+      "arm": false,
+      "retryLater": true,
+      "mention": "glob@14.0.4"
+    },
+    {
+      "asOf": "2026-11-13T03:48:00Z",
+      "arm": true,
+      "retryLater": false,
+      "mention": "all at least 7 days old"
+    }
+  ],
+  "why": "A patch update of rimraf in the tooling group, the first pull request that the workflow armed by itself: every version that the lockfile adds or changes is at least 8.8 days old, the youngest being glob 14.0.4 (published 2026-11-06T03:47:55Z). Judged on other days, the age rule decides: 2.3 days old on 2026-11-08, just under 7 days a second before the 7 days are full, and old enough one minute after."
+}
