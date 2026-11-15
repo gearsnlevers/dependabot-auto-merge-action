@@ -1,0 +1,96 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 1098,
+  "asOf": "2026-11-14T22:56:09Z",
+  "pr": {
+    "number": 1098,
+    "title": "build(deps-dev): bump eslint-plugin-import-x from 4.17.1 to 4.18.0",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/eslint-plugin-import-x-4.18.0",
+      "sha": "03417c092c82328e05d030256f54026eefaeba48"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "18615b8dce3d0d5952663df4964a3e8c37b7f0f5"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump eslint-plugin-import-x from 4.17.1 to 4.18.0\n\nBumps [eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) from 4.17.1 to 4.18.0.\n- [Release notes](https://github.com/un-ts/eslint-plugin-import-x/releases)\n- [Changelog](https://github.com/un-ts/eslint-plugin-import-x/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/un-ts/eslint-plugin-import-x/compare/v4.17.1...v4.18.0)\n\n---\nupdated-dependencies:\n- dependency-name: eslint-plugin-import-x\n  dependency-version: 4.18.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "18615b8dce3d0d5952663df4964a3e8c37b7f0f5",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/eslint-plugin-import-x": {
+        "version": "4.17.1"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/eslint-plugin-import-x": {
+        "version": "4.18.0"
+      },
+      "node_modules/eslint-plugin-import-x/node_modules/es-module-lexer": {
+        "version": "3.0.4"
+      }
+    }
+  },
+  "registry": {
+    "eslint-plugin-import-x": {
+      "4.18.0": "2026-11-06T19:26:53.286Z"
+    },
+    "es-module-lexer": {
+      "3.0.4": "2026-10-15T04:35:33.820Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "manual set"
+    }
+  ],
+  "why": "eslint-plugin-import-x: ESLint with its plugins stays manual, and it is no tooling pattern either."
+}

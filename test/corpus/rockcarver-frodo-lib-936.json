@@ -1,0 +1,90 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 936,
+  "asOf": "2026-11-07T19:53:53Z",
+  "pr": {
+    "number": 936,
+    "title": "chore(deps-dev): bump eslint from 10.13.0 to 10.14.0",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/eslint-10.14.0",
+      "sha": "4daf97ca5500261d07262ae4546bf6813dedb6a8"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "2217c96e8d8b3382403e1371f7166cfd7cf4e1c0"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps-dev): bump eslint from 10.13.0 to 10.14.0\n\nBumps [eslint](https://github.com/eslint/eslint) from 10.13.0 to 10.14.0.\n- [Release notes](https://github.com/eslint/eslint/releases)\n- [Commits](https://github.com/eslint/eslint/compare/v10.13.0...v10.14.0)\n\n---\nupdated-dependencies:\n- dependency-name: eslint\n  dependency-version: 10.14.0\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "2217c96e8d8b3382403e1371f7166cfd7cf4e1c0",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/eslint": {
+        "version": "10.13.0"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/eslint": {
+        "version": "10.14.0"
+      }
+    }
+  },
+  "registry": {
+    "eslint": {
+      "10.14.0": "2026-10-30T14:12:27.179Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "manual set"
+    }
+  ],
+  "why": "ESLint stays manual, whatever the size of the update."
+}

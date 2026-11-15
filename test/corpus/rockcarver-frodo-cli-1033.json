@@ -1,0 +1,96 @@
+{
+  "repo": "rockcarver/frodo-cli",
+  "number": 1033,
+  "asOf": "2026-11-02T00:04:41Z",
+  "pr": {
+    "number": 1033,
+    "title": "chore(deps-dev): bump tsdown from 0.23.3 to 0.23.4 in the dev-minor-patch group",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/dev-minor-patch-7cb8577c67",
+      "sha": "dba2c0e3b4eaeab8fba3301d1e1f86df2b13ad5f"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "9fc0f451ce59adf117e08bf6cd16e7095d6ca9be"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps-dev): bump tsdown\n\nBumps the dev-minor-patch group with 1 update: [tsdown](https://github.com/rolldown/tsdown).\n\n\nUpdates `tsdown` from 0.23.3 to 0.23.4\n- [Release notes](https://github.com/rolldown/tsdown/releases)\n- [Commits](https://github.com/rolldown/tsdown/compare/v0.23.3...v0.23.4)\n\n---\nupdated-dependencies:\n- dependency-name: tsdown\n  dependency-version: 0.23.4\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: dev-minor-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "9fc0f451ce59adf117e08bf6cd16e7095d6ca9be",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/tsdown": {
+        "version": "0.23.3"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/tinyps": {
+        "version": "0.5.1"
+      },
+      "node_modules/tsdown": {
+        "version": "0.23.4"
+      }
+    }
+  },
+  "registry": {
+    "tinyps": {
+      "0.5.1": "2026-10-21T08:32:13.611Z"
+    },
+    "tsdown": {
+      "0.23.4": "2026-10-29T12:27:36.311Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@modelcontextprotocol/client",
+      "@types/*",
+      "cli-progress",
+      "fs-extra",
+      "jest",
+      "loglevel",
+      "map-stream",
+      "replaceall",
+      "rimraf",
+      "slugify",
+      "tmp",
+      "ts-jest"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group (dev-minor-patch)"
+    }
+  ],
+  "why": "The bundler tsdown inside the old group dev-minor-patch: not the tooling group."
+}

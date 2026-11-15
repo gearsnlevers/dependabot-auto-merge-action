@@ -1,0 +1,78 @@
+# Dependabot version updates.
+# Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+#
+# - Tooling (the named list in the group `tooling` below: packages that do not end up
+#   in what we ship) is grouped into one weekly PR for minor and patch updates, and
+#   that PR can auto-merge (dependabot-auto-merge.yml). Every other package, that is
+#   every package that shipped code imports (it is bundled into dist/), the bundler
+#   (tsdown: it writes the file that we ship, so it is treated like a bundled package),
+#   the manual set (Prettier, TypeScript, ESLint and their plugins, whose majors need
+#   coordinated config work and whose minors can reformat code) and anything that is not
+#   listed, arrives as a PR of its own that a person merges. TS majors are ignored
+#   entirely. A test (src/dependabotPolicy.unit.test.ts) fails when a pattern of the
+#   group matches a bundled package or the bundler. A new tooling package is a PR of its
+#   own until it is listed here.
+# - Weekly updates for the GitHub Actions used by the workflows, except
+#   github/gh-aw-actions/setup (see the ignore below). Each is a PR of its own that a
+#   person merges: an action runs in our workflows with their tokens.
+# - A version update is proposed only once its release is 7 days old
+#   (cooldown). Packages that are bundled into what we ship, and the
+#   auto-merge of Dependabot pull requests (dependabot-auto-merge.yml, which
+#   merges within minutes once the checks pass), would otherwise take a
+#   release on the day it is published; a poisoned release is usually found
+#   and withdrawn within days. Dependabot security updates are not delayed by
+#   it. Our own actions (gearsnlevers/*) are excluded so that they arrive at
+#   once.
+# - Dependabot security updates are enabled separately in repo settings.
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    open-pull-requests-limit: 10
+    groups:
+      tooling:
+        patterns:
+          - "@jest/*"
+          - "@peculiar/x509"
+          - "@types/*"
+          - "agentkeepalive"
+          - "axios-mock-adapter"
+          - "jest"
+          - "jest-jasmine2"
+          - "mock-fs"
+          - "reflect-metadata"
+          - "rimraf"
+          - "ts-jest"
+          - "typedoc"
+          - "typedoc-plugin-missing-exports"
+          - "winston"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      - dependency-name: "typescript"
+        update-types:
+          - "version-update:semver-major"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+      exclude:
+        - "gearsnlevers/*"
+    ignore:
+      # The Issue Concierge's .github/workflows/*.lock.yml files are compiled by
+      # gh-aw and record the compiler they were built with (compiler_version,
+      # GH_AW_VERSION, the manifest, .github/aw/actions-lock.json). The setup
+      # action installs the runtime scripts of the gh-aw version it is tagged
+      # with, so bumping it alone leaves compiler and runtime out of step. A
+      # Concierge release moves it by recompiling the locks; a Dependabot bump
+      # alone would leave them out of step.
+      - dependency-name: "github/gh-aw-actions/setup"

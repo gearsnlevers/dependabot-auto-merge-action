@@ -1,0 +1,90 @@
+{
+  "repo": "rockcarver/frodo-cli",
+  "number": 1322,
+  "asOf": "2026-11-14T23:03:18Z",
+  "pr": {
+    "number": 1322,
+    "title": "build(deps-dev): bump sanitize-filename from 1.6.4 to 1.6.5",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/sanitize-filename-1.6.5",
+      "sha": "309f3d739c63438110a231cd676fe61a68f0b029"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "196421ad64b422c40679e5968599c63c597c3873"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": {
+      "merge_method": "squash"
+    }
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump sanitize-filename from 1.6.4 to 1.6.5\n\nBumps [sanitize-filename](https://github.com/parshap/node-sanitize-filename) from 1.6.4 to 1.6.5.\n- [Commits](https://github.com/parshap/node-sanitize-filename/compare/v1.6.4...v1.6.5)\n\n---\nupdated-dependencies:\n- dependency-name: sanitize-filename\n  dependency-version: 1.6.5\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "196421ad64b422c40679e5968599c63c597c3873",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/sanitize-filename": {
+        "version": "1.6.4"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/sanitize-filename": {
+        "version": "1.6.5"
+      }
+    }
+  },
+  "registry": {
+    "sanitize-filename": {
+      "1.6.5": "2026-11-07T23:03:07.340Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@modelcontextprotocol/client",
+      "@types/*",
+      "cli-progress",
+      "fs-extra",
+      "jest",
+      "loglevel",
+      "map-stream",
+      "replaceall",
+      "rimraf",
+      "slugify",
+      "tmp",
+      "ts-jest"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "not in the tooling group"
+    }
+  ],
+  "why": "sanitize-filename is bundled into the CLI. It is the pull request that the old workflow armed 7.0 days after publication and that merged before the new policy was in force; under the record a person merges it."
+}

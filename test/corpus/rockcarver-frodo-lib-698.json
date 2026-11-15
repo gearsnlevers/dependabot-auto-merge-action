@@ -1,0 +1,80 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 698,
+  "asOf": "2026-10-10T19:54:57Z",
+  "pr": {
+    "number": 698,
+    "title": "chore(deps): bump actions/setup-node from 6 to 7",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/github_actions/actions/setup-node-7",
+      "sha": "128f2a9176aec90d392c06e266e15813464ac884"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "ca9fc1a14d885d5147a0174f1bc0c693e7270d3a"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "github_actions"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "chore(deps): bump actions/setup-node from 6 to 7\n\nBumps [actions/setup-node](https://github.com/actions/setup-node) from 6 to 7.\n- [Release notes](https://github.com/actions/setup-node/releases)\n- [Commits](https://github.com/actions/setup-node/compare/v6...v7)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-node\n  dependency-version: '7'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "ca9fc1a14d885d5147a0174f1bc0c693e7270d3a",
+  "baseLock": {
+    "packages": {
+      "": {}
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {}
+    }
+  },
+  "registry": {},
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "GitHub Actions update: a person merges it"
+    }
+  ],
+  "why": "A GitHub Actions update is never armed (an action runs with the credentials of the workflows); it is a major one too."
+}

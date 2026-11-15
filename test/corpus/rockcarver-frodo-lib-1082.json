@@ -1,0 +1,180 @@
+{
+  "repo": "rockcarver/frodo-lib",
+  "number": 1082,
+  "asOf": "2026-11-14T19:53:22Z",
+  "pr": {
+    "number": 1082,
+    "title": "build(deps-dev): bump typescript-eslint from 8.72.1 to 8.72.2",
+    "state": "closed",
+    "user": {
+      "login": "dependabot[bot]"
+    },
+    "head": {
+      "ref": "dependabot/npm_and_yarn/typescript-eslint-8.72.2",
+      "sha": "b24725cc548090ad4f29f942c471e38f01ecc85c"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "a437d0d67a85a570a067168be509c98729e7f8fe"
+    },
+    "labels": [
+      {
+        "name": "dependencies"
+      },
+      {
+        "name": "javascript"
+      }
+    ],
+    "auto_merge": null
+  },
+  "commits": [
+    {
+      "author": {
+        "login": "dependabot[bot]"
+      },
+      "commit": {
+        "message": "build(deps-dev): bump typescript-eslint from 8.72.1 to 8.72.2\n\nBumps [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint) from 8.72.1 to 8.72.2.\n- [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)\n- [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/typescript-eslint/CHANGELOG.md)\n- [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v8.72.2/packages/typescript-eslint)\n\n---\nupdated-dependencies:\n- dependency-name: typescript-eslint\n  dependency-version: 8.72.2\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    }
+  ],
+  "mergeBase": "a437d0d67a85a570a067168be509c98729e7f8fe",
+  "baseLock": {
+    "packages": {
+      "": {},
+      "node_modules/@typescript-eslint/eslint-plugin": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/parser": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/project-service": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/scope-manager": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/tsconfig-utils": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/type-utils": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/types": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/typescript-estree": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/utils": {
+        "version": "8.72.1"
+      },
+      "node_modules/@typescript-eslint/visitor-keys": {
+        "version": "8.72.1"
+      },
+      "node_modules/typescript-eslint": {
+        "version": "8.72.1"
+      }
+    }
+  },
+  "headLock": {
+    "packages": {
+      "": {},
+      "node_modules/@typescript-eslint/eslint-plugin": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/parser": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/project-service": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/scope-manager": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/tsconfig-utils": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/type-utils": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/types": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/typescript-estree": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/utils": {
+        "version": "8.72.2"
+      },
+      "node_modules/@typescript-eslint/visitor-keys": {
+        "version": "8.72.2"
+      },
+      "node_modules/typescript-eslint": {
+        "version": "8.72.2"
+      }
+    }
+  },
+  "registry": {
+    "@typescript-eslint/eslint-plugin": {
+      "8.72.2": "2026-11-09T17:06:33.915Z"
+    },
+    "@typescript-eslint/parser": {
+      "8.72.2": "2026-11-09T17:06:15.865Z"
+    },
+    "@typescript-eslint/project-service": {
+      "8.72.2": "2026-11-09T17:06:16.371Z"
+    },
+    "@typescript-eslint/scope-manager": {
+      "8.72.2": "2026-11-09T17:06:28.379Z"
+    },
+    "@typescript-eslint/tsconfig-utils": {
+      "8.72.2": "2026-11-09T17:05:47.482Z"
+    },
+    "@typescript-eslint/type-utils": {
+      "8.72.2": "2026-11-09T17:06:01.890Z"
+    },
+    "@typescript-eslint/types": {
+      "8.72.2": "2026-11-09T17:08:40.810Z"
+    },
+    "@typescript-eslint/typescript-estree": {
+      "8.72.2": "2026-11-09T17:06:01.455Z"
+    },
+    "@typescript-eslint/utils": {
+      "8.72.2": "2026-11-09T17:06:13.865Z"
+    },
+    "@typescript-eslint/visitor-keys": {
+      "8.72.2": "2026-11-09T17:05:34.549Z"
+    },
+    "typescript-eslint": {
+      "8.72.2": "2026-11-09T17:08:00.049Z"
+    }
+  },
+  "tooling": {
+    "patterns": [
+      "@jest/*",
+      "@peculiar/x509",
+      "@types/*",
+      "agentkeepalive",
+      "axios-mock-adapter",
+      "jest",
+      "jest-jasmine2",
+      "mock-fs",
+      "reflect-metadata",
+      "rimraf",
+      "ts-jest",
+      "typedoc",
+      "typedoc-plugin-missing-exports",
+      "winston"
+    ],
+    "excludePatterns": [],
+    "lockfile": "package-lock.json"
+  },
+  "expectations": [
+    {
+      "arm": false,
+      "retryLater": false,
+      "mention": "manual set"
+    }
+  ],
+  "why": "typescript-eslint belongs to the manual set by its name."
+}
